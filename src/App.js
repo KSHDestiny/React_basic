@@ -1,24 +1,16 @@
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
+// import Extension from './components/Extension';
+// import Footer from './components/Footer';
+// import Header from './components/Header';
+import UseStateBtn from './components/UseStateBtn';
 // import Event from './components/Event';
 
 function App() {
 
   return(
     <>
-    { 
-      1 == 10? 
-      <>
-        <Header/>
-        <h1>This is Right Text</h1>
-      </>
-      :   
-      <>
-         <Footer></Footer>
-         <h1>This is Wrong Text</h1>
-       </>
-    }
+      {/* <Header title = "This is testing message"></Header> */}
+      <UseStateBtn></UseStateBtn>
     </>
   )
 
